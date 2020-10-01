@@ -5,9 +5,9 @@ const {questions} = require("./utils/questions.js");
 
 // function to initialize program
 async function init(){
-    const userAnswers = await inquirer.prompt(questions);
-    console.log(userAnswers);
-    // const userReadME = generateMarkdown(userAnswers);
+    const answers = await inquirer.prompt(questions);
+    console.log(answers);
+    // const userReadME = generateMarkdown(answers);
     // fs.promises.writeFile("README.md",userReadME);
 }
  
