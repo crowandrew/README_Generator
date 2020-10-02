@@ -1,12 +1,12 @@
 // function to generate markdown for README
 function generateMarkdown(answers) {
   return `# ${answers.title}
-  ![GitHub top language](https://img.shields.io/github/languages/top/crowandrew/README_Generator) ![Libraries.io dependency status for GitHub repo](https://img.shields.io/badge/license-MIT-yellowgreen) ![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/crowandrew/README_Generator)
+  ![GitHub top language](https://img.shields.io/github/languages/top/${githubUser}/README_Generator) ![Libraries.io dependency status for GitHub repo](https://img.shields.io/badge/license-${license}-yellowgreen) ![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/${githubUser}/${repo})
   
   ---
   <a name="description"></a>
   ## Description
-  
+  ${description}
   ---
   ## Table of Contents
   
@@ -21,6 +21,8 @@ function generateMarkdown(answers) {
   9. [ Questions ](#questions)
   ---
   ## Visuals
+  Screenshot of Project
+  ![Screenshot of project](./${screenshot})
   ---
   ## Demo
   ---
