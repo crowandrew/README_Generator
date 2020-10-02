@@ -30,7 +30,7 @@ const demoQ = new Question("input","demoURL","What is the link to your demo?",""
 const screenshotQ = new Question("input","screenshot","What is the screenshot file name?","");
 const installationQ = new Question("input","installation","How do you install your project?","");
 const usageQ = new Question("input","usage","Why would someone use this project?","");
-const licenseQ = new Question("list","user_list","What license do you want to use?",licenseArr);
+const licenseQ = new Question("list","license","What license do you want to use?",licenseArr);
 const contributingQ = new Question("input","contributing","Who contributed to this project?","");
 const testsQ = new Question("input","tests","What do you want to include in the tests section?","");
 
