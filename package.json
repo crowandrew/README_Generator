@@ -1,0 +1,24 @@
+{
+  "name": "readme_generator",
+  "version": "1.0.0",
+  "description": "![GitHub top language](https://img.shields.io/github/languages/top/crowandrew/README_Generator) ![Libraries.io dependency status for GitHub repo](https://img.shields.io/badge/license-MIT_License-yellowgreen) ![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/crowandrew/README_Generator)",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "inquirer": "^7.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crowandrew/README_Generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crowandrew/README_Generator/issues"
+  },
+  "homepage": "https://github.com/crowandrew/README_Generator#readme"
+}
