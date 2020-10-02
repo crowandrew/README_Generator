@@ -31,7 +31,7 @@
 
   ## Demo
 
-  Checkout the [demo page](./readme-generator-demo.mov) to see Readme Generator in action.
+  Checkout the [demo page](https://drive.google.com/file/d/1JeHj9hZr4hwjAG4Hci_QtwGbKHZpe4QT/view) to see Readme Generator in action.
 
   ---
 
